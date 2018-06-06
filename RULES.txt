@@ -1,0 +1,18 @@
+Interface:
+1) choose a player from the score board and press 'Load player'
+* you can add a new player by inserting the player's name in the entry and pressing 'Add player'
+2) to start a new game, press 'new game'
+3) play with the 'hit!' and 'pass' buttons and press 'new game' in the end of each game to start a new one
+* you can see the current balance of the game updating in the balance label
+4) when you want to exit the game or switch players, press 'save' to update the score board and repeat step 1
+5) be aware, you can press 'exit' and quit the game anytime. but if you do so in the middle of a game, all unsaved
+changes will be lost(you'll be informed by a messagebox)
+
+
+gameplay:
+each player starts with 2 cards.
+each turn, you can choose between hit or pass.
+when choosing pass, the other player can hit as many time as he wants until he passes too.  
+a player wins if the other one has a cards-sum greater than 21 or has greater cards-sum(but not greater than 21). 
+a player loses if his cards-sum crosses 21 or less than the other player.
+a tie happens when two players has the same cards-sum.
